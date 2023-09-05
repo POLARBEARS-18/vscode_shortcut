@@ -1,0 +1,69 @@
+  // カスタムショートカット
+  {
+    "key": "tab",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "shift+tab",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+
+  {
+    "key": "ctrl+i",
+    "command": "cursorUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "cursorLeft",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "cursorDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "cursorRight",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "ctrl+cmd+i",
+    "command": "cursorTop",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+cmd+j",
+    "command": "cursorHome",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+cmd+k",
+    "command": "cursorBottom",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+cmd+l",
+    "command": "cursorEnd",
+    "when": "textInputFocus"
+  },
+
+  {
+    "key": "ctrl+alt+j",
+    "command": "cursorWordLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "cursorWordEndRight",
+    "when": "textInputFocus"
+  }
